@@ -1,0 +1,16 @@
+{
+  "name": "openai-render-ai-site",
+  "version": "1.0.0",
+  "description": "AI website using the OpenAI API, ready to deploy on Render.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "openai": "^5.16.0"
+  }
+}
